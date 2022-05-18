@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+}
+
+.nav{
+    padding: 1%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.component-1{
+    padding-left: 2%;
+}
+
+.component-2{
+    color: white;
+    font-family: 'Arial';
+    font-size: 30px;
+    padding-right: 2%;
+}
+
+.header{
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../assets/brief_explanation_background.png);
+}
+
+.description{
+    padding-top: 5%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arial';
+}
+
+.tagline-top{
+    padding-top: 3%;
+    text-align: center;
+    
+}
+
+.tagline-bottom{
+    padding-top: 2%;
+    text-align: center;
+}
+
+.content{
+    padding-top: 2%;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../assets/expansions_and_features_background.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+    
+}
+
+.judul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.isi{
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gambar-kiri{
+    padding-left: 10%;
+}
+
+.gambar-kanan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 6%;
+}
+
+.footer{
+    padding: 1%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.komponen-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
